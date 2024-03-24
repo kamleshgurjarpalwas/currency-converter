@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4e4ba;
+}
+.container {
+  border: 3px black solid;
+  background-color: #f6d88cc9;
+  padding: 25px;
+}
+.amount {
+  background-color: #f3ba2a;
+  padding: 10px;
+  border-radius: 5px;
+}
+.dropDown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f3ba2a;
+  padding: 70px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.selectContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffdd00;
+  border-radius: 5px;
+  padding: 5px;
+  gap: 20px;
+}
+.msg {
+  height: 30px;
+  border-style: groove;
+  border-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 0, 153, 0.804);
+}
+form input {
+  height: 2rem;
+  width: 90%;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 5px;
+  padding-left: 0.75rem;
+  background-color: rgba(169, 230, 230, 0.733);
+}
+.getBtn {
+  height: 2rem;
+  width: 20rem;
+  border-width: 0px;
+  background-color: #6bff6d;
+  border-radius: 5px;
+}
+.getBtn:hover {
+  height: 3rem;
+  width: 21rem;
+  cursor: pointer;
+}
